@@ -1,1 +1,1 @@
-# Highland-Editor
+# Highland Editor
