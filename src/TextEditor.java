@@ -31,7 +31,7 @@ public class TextEditor extends JFrame implements ActionListener {
   TextEditor() {
     
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    this.setTitle("Highland Editor");
+    this.setTitle("Text Edit");
     this.setSize(500, 500);
     this.setLayout(new FlowLayout());
     this.setLocationRelativeTo(null);
@@ -90,7 +90,7 @@ public class TextEditor extends JFrame implements ActionListener {
 
 			menuBar = new JMenuBar();
 			fileMenu = new JMenu("File");
-			editorMenu = new JMenu("Highland Editor");
+			editorMenu = new JMenu("Text Edit");
 			openItem = new JMenuItem("Open");
 			saveItem = new JMenuItem("Save");
 			exitItem = new JMenuItem("Exit");
@@ -220,7 +220,7 @@ public class TextEditor extends JFrame implements ActionListener {
 
 		if (e.getSource() == aboutItem) {
 
-			JOptionPane.showMessageDialog(null, "Author: Highland Editor \n Version: 1.0 \n Open Source: https://github.com/Highland-OS/Highland-Editor", "About JEditor", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "Author: X-Developer-Studios(github) \n Version: 1.0 \n Open Source: https://github.com/Highland-OS/Text-Edit", "About Text Edit", JOptionPane.INFORMATION_MESSAGE);
 
 		}
 
